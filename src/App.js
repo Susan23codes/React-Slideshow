@@ -6,6 +6,8 @@ import React,{useState,useEffect} from 'react';
 
 
 function App() {
+  // start useState at null instead of [] because [] IS data to it whereas 
+  // null is not
   const [data,setData]=useState(null);
   const getData=()=>{
     fetch('film-data.json'
@@ -34,6 +36,7 @@ function App() {
   return (
     <div className="slides-app">
       <h1 className="title">Slideshow</h1>
+  {/* must account for the time the fetch request takes */}
        {data ? <Slideshow films={data}/> : <h2>Loading...</h2>}
     </div>
   )
