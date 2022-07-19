@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="slides-app">
-      <h1>Slideshow</h1>
+      <h1 className="title">Slideshow</h1>
        {data ? <Slideshow films={data}/> : <h2>Loading...</h2>}
     </div>
   )

@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+}
+
+.movieCard {
+    border: 2px solid;
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 0 0 10px 20px;
+}
