@@ -7,6 +7,10 @@
     height: auto;
 }
 
+.description {
+    height: 150px;
+}
+
 .movieCard {
     border: 2px solid;
     width: 50vw;
